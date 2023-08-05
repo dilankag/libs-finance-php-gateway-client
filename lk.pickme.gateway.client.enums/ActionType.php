@@ -1,0 +1,20 @@
+<?php
+
+/**
+ * @author Dilanka Gamage
+ */
+class ActionType {
+
+    // Registry
+    public static $PEOPLE_PROFILE = "PEOPLE_PROFILE";
+    public static $DRIVER_PROFILE = "DRIVER_PROFILE";
+    public static $FGL_ACCOUNTING_RULE_PROFILE = "FGL_ACCOUNTING_RULE_PROFILE";
+    // Transaction
+    public static $DRIVER_TRIP_TRANSACTION = "DRIVER_TRIP_TRANSACTION";
+    public static $DRIVER_TRIP_SUMMARY = "DRIVER_TRIP_SUMMARY";
+    public static $DRIVER_CREDIT_DEBIT = "DRIVER_CREDIT_DEBIT";
+    public static $FGL_STAKEHOLDER_MONTHLY_SUMMARY = "FGL_STAKEHOLDER_MONTHLY_SUMMARY";
+    public static $FGL_STAKEHOLDER_BALANCE_SUMMARY = "FGL_STAKEHOLDER_BALANCE_SUMMARY";
+    public static $FGL_STAKEHOLDER_TRANSACTION_DETAIL = "FGL_STAKEHOLDER_TRANSACTION_DETAIL";
+
+}
